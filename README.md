@@ -10,5 +10,13 @@ da pasta T-SQL Scripts\INSERT_DADOS\.
 
 ### Carga e Tranformação dos dados - ETL
 
-> Para executar o ETL dos dados foram utilizados os scripts das pastas "T-SQL Scripts" subpastas iniciados com o nome "ETL_"
+> Para executar o ETL dos dados foram utilizados os scripts da pasta "T-SQL Scripts" que contém as subpastas iniciadas com o nome "ETL_TABLE_[NOME_DIMENSAO]" (que corespondem as tabelas dimnsionais e fato).
 
+> Foram criados 3 tabelas "Dimensionais": Cliente, Marca e Regiao. 
+> A tabelas possuem estágios de ETL cada um em script separado (DDL e DML), incluindo estágio de Data Quality.
+
+> Foram criados também 2 tabelas "Fatos" com seus scripts de DDL e DML: FATO_FINANCEIRO e FATO_SITE.
+
+### Power Bi (OLAP)
+
+> Para a construção do dashboard no Power Bi foi feita a conexão direta com o SQL Server
