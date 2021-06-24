@@ -1,0 +1,16 @@
+USE [ChallengeFiapCyrela]
+GO
+
+CREATE TABLE [dbo].[Dimensao_Marca](
+	[Sk] [int] IDENTITY(1,1) NOT NULL,
+	[Id] [int] NOT NULL,
+	[Marca] [nvarchar](255) NULL,
+	[Empreendimento] [nvarchar](255) NULL,
+ CONSTRAINT [Sk_Dimensao_Marca] PRIMARY KEY CLUSTERED 
+(
+	[Sk] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
