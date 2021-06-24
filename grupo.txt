@@ -1,0 +1,7 @@
+Grupo: Evergreen
+Repositorio Git: https://github.com/elvisdeandrade/cyrela_challenge.git
+
+Elvis de Andrade Santos 		RM83698
+Guilherme Santiago Beluci da Silva	RM84431
+Vinicius Zanatta de Andrade 		RM82174
+Matheus Brancalhão 			RM84309
