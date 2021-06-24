@@ -19,4 +19,4 @@ da pasta T-SQL Scripts\INSERT_DADOS\.
 
 ### Power Bi (OLAP)
 
-> Para a construção do dashboard no Power Bi foi feita a conexão direta com o SQL Server
+> Para a construção do dashboard utilizamos a ferramenta de OLAP Power Bi onde foi feita a conexão direta com o SQL Server para a importação dos dados e montarmos os relatórios finais.
